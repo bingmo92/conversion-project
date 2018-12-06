@@ -1,0 +1,105 @@
+*{
+    box-sizing:border-box;
+}
+
+label {
+ margin-left:360px;
+ padding-right:10px;
+
+}
+
+input, label {
+    float:left;
+    text-align: center;
+    
+}
+
+.resultdisplay {
+  margin-left:360px;
+  margin-top:30px;
+    
+}
+
+.display {
+    position: absolute;
+    margin-left:360px;
+    margin-top:30px;
+   
+}
+.inchresult {
+    margin-left:110px;
+    text-align: center;
+    width:25%;
+}
+
+.btn {
+    padding:.2%;
+    margin-left:10px;
+}
+textarea {
+    vertical-align:middle;
+    margin-left:118px;
+    text-align: center;
+    resize: none;
+}
+.containercm {
+    padding-bottom:64px;
+   
+}
+
+
+input::placeholder {
+    color: lightseagreen;
+    opacity: 1;
+    
+}
+
+h1 {
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:30px;
+    color: yellow;
+}
+
+
+h2 {
+
+    margin-left:50px;
+    margin-bottom:30px;
+    color:green;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: tomato;
+    
+}
+
+body {
+    background-color:rgb(125, 198, 228);
+}
+
+.incheswidth {
+    max-width: 1100px;
+    margin-left:280px;
+}
+
+.centimeterswidth {
+    max-width: 1100px;
+    margin-left:280px;
+}
+
+.navbar-text {
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+}
+
+
+.navbar > .navbar-text {
+    color:red;
+}
+
+#centimeters {
+    margin-left:58px;
+    width:15%;
+}
